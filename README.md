@@ -346,10 +346,14 @@ Banking-Customer-Risk-Financial-Behavior-Analysis
 
 <hr>
 
-<h2>👨‍💻 Author</h2>
+<h2>👤 Author</h2>
 
 <p>
-<b>Pranay Shrivastava</b><br>
-Final Year B.Tech – Artificial Intelligence & Data Science<br>
-Specialization: Data Analytics & Business Intelligence
+<b>Name:</b> Pranay Shrivastava <br>
+<b>Degree:</b> B.Tech – Artificial Intelligence & Data Science <br>
+<b>Specialization:</b> Data Analytics | Business Intelligence <br>
+<b>Email:</b> shrivastavapranay35@gmail.com <br>
+<b>LinkedIn:</b> <a href="https://www.linkedin.com/in/pranayshrivastavaofficial/" target="_blank">
+linkedin.com/in/pranay-shrivastava
+</a>
 </p>
