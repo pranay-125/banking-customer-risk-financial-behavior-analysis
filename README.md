@@ -303,22 +303,29 @@ based on multiple dimensions.
 <h2>📁 Repository Structure</h2>
 
 <pre>
-Banking-Risk-Analytics
+Banking-Customer-Risk-Financial-Behavior-Analysis
 │
-├── Data
-│   ├── Banking_Data.csv
+├── dashboard
+│   └── banking_dashboard.pbix
 │
-├── Python_EDA
-│   ├── BankEDA.ipynb
+├── data_files
+│   ├── raw_data.csv
+│   └── organised_data.xlsx
 │
-├── PowerBI
-│   ├── Banking Dashboard.pbix
+├── notebook
+│   ├── bank_EDA (Version 1).ipynb
+│   ├── bank_EDA (Version 1).pdf
+│   ├── bank_EDA (Version 2).ipynb
+│   └── bank_EDA (Version 2).pdf
 │
-├── Documentation
-│   ├── Domain Knowledge Document.pdf
-│   ├── Business Requirements Document.pdf
-│   ├── Dashboard Insights.pdf
-│   ├── Project Explanation.pdf
+├── required_document
+│   ├── Business_Requirements_Document_Banking_Risk_Analytics.pdf
+│   ├── Dashboard_Insights_Banking_Risk_Analytics.pdf
+│   └── Domain_Knowledge_Banking_Risk_Analytics.pdf
+│
+├── report.pptx
+│
+├── .gitignore
 │
 └── README.md
 </pre>
