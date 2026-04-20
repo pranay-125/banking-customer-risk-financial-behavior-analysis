@@ -1,4 +1,4 @@
-<h1 align="center">📊 Banking Risk & Customer Analytics</h1>
+<h1 align="center">📊 Customer Credit Risk & Financial Behavior Analysis</h1>
 
 <p align="center">
 End-to-End Data Analytics Project | SQL • Excel • Python • Power BI
@@ -105,6 +105,7 @@ This project analyzes <b>24K+ banking customer records</b> including:
 <li><b>Feature Engineering:</b> Created income bands and engagement metrics</li>
 <li><b>Data Modeling:</b> Built structured Power BI model</li>
 <li><b>Dashboarding:</b> Developed interactive dashboards for analysis</li>
+<li><b>Advanced Interaction:</b> Implemented drill-through functionality in Power BI to enable detailed customer-level analysis and deeper exploration of risk segments</li>
 </ol>
 
 <hr>
@@ -135,7 +136,7 @@ This project analyzes <b>24K+ banking customer records</b> including:
 <p>
 Provides a high-level view of <b>total clients, loan exposure, deposits, and revenue</b>.
 </p>
-<img src="https://github.com/user-attachments/assets/b2d3feeb-02d2-4c2b-9e20-01c568ecc2a1" width="100%"/>
+<img width="1920" height="986" alt="Screenshot 2026-04-04 121002" src="https://github.com/user-attachments/assets/a1d0a6a9-c230-449f-9830-d4b821a32010" />
 
 <br><br>
 
@@ -143,7 +144,7 @@ Provides a high-level view of <b>total clients, loan exposure, deposits, and rev
 <p>
 Analyzes <b>loan distribution across segments</b> to identify <b>high-risk exposure areas</b>.
 </p>
-<img src="https://github.com/user-attachments/assets/42c714ce-487d-47c6-b4b2-4ebef03371a0" width="100%"/>
+<img width="1920" height="999" alt="Screenshot 2026-04-04 121009" src="https://github.com/user-attachments/assets/a4e5e321-b908-4d6d-88ea-468f0d511a34" />
 
 <br><br>
 
@@ -151,7 +152,7 @@ Analyzes <b>loan distribution across segments</b> to identify <b>high-risk expos
 <p>
 Highlights <b>deposit distribution and financial stability</b> of customers.
 </p>
-<img src="https://github.com/user-attachments/assets/1a01ace3-4896-417b-b807-c73c83258cd2" width="100%"/>
+<img width="1920" height="990" alt="Screenshot 2026-04-04 121016" src="https://github.com/user-attachments/assets/783a36e0-ffdd-4e3e-bf37-bc19f5021a5d" />
 
 <br><br>
 
@@ -159,7 +160,7 @@ Highlights <b>deposit distribution and financial stability</b> of customers.
 <p>
 Shows <b>engagement patterns and customer segmentation</b> to identify risk-prone groups.
 </p>
-<img src="https://github.com/user-attachments/assets/7028a242-ca03-4608-aa6a-ea77a327f988" width="100%"/>
+<img width="1920" height="990" alt="Screenshot 2026-04-04 121025" src="https://github.com/user-attachments/assets/7f928650-c9d5-4fe7-aa0f-4a7c23368e33" />
 
 <hr>
 
