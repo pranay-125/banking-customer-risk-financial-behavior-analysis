@@ -1,179 +1,50 @@
 <h1 align="center">📊 Banking Risk & Customer Analytics</h1>
 
 <p align="center">
-End-to-End Data Analytics Project | Excel • Python • Power BI
+End-to-End Data Analytics Project | SQL • Excel • Python • Power BI
 </p>
 
 <hr>
 
-<h2>📌 Project Overview</h2>
-
+<h2>🎯 Problem Statement</h2>
 <p>
-This project focuses on analyzing banking customer data to understand financial behavior, 
-assess risk exposure, and support safer lending decisions. The goal of this project is to 
-transform raw banking data into actionable insights using data analytics and business intelligence tools.
-</p>
-
-<p>
-The project follows a complete analytics workflow starting from data validation, exploratory 
-data analysis, feature engineering, KPI creation, and dashboard visualization to support 
-data-driven decision making in the banking domain.
+Banks face significant <b>credit risk</b> when loan decisions are made without structured analysis of customer financial behavior. 
+This project focuses on identifying <b>high-risk customer segments</b>, analyzing <b>loan exposure</b>, and enabling 
+<b>data-driven lending decisions</b>.
 </p>
 
 <hr>
 
-<h2>🎯 Business Objective</h2>
-
-<p>
-Banks face significant financial risk when loans are approved without proper assessment of 
-customer financial behavior. This project aims to analyze banking customer data and build 
-interactive dashboards that help stakeholders evaluate:
-</p>
-
+<h2>💼 Business Objective</h2>
 <ul>
-<li>Customer financial stability</li>
-<li>Loan exposure</li>
-<li>Deposit strength</li>
-<li>Customer engagement with the bank</li>
+<li>Evaluate <b>customer risk profiles</b> using financial and engagement data</li>
+<li>Monitor <b>loan exposure and credit utilization</b></li>
+<li>Identify <b>high-risk customer segments</b></li>
+<li>Enable <b>better lending and risk management decisions</b></li>
 </ul>
 
+<hr>
+
+<h2>📂 Dataset Overview</h2>
 <p>
-These insights support better lending decisions and risk management strategies.
+This project analyzes <b>24K+ banking customer records</b> including:
 </p>
-
-<hr>
-
-<h2>📂 Dataset Description</h2>
-
-<p>
-The dataset simulates real-world banking customer data and includes financial and demographic information.
-The data contains attributes such as income, loans, deposits, credit card balances, and customer engagement.
-</p>
-
-<table border="1" cellpadding="8" cellspacing="0">
-<tr>
-<th>Category</th>
-<th>Description</th>
-</tr>
-
-<tr>
-<td>Customer Information</td>
-<td>Gender, Nationality, Banking Relationship</td>
-</tr>
-
-<tr>
-<td>Financial Data</td>
-<td>Bank Loans, Business Lending, Credit Card Balance</td>
-</tr>
-
-<tr>
-<td>Account Information</td>
-<td>Checking Account, Savings Account, Deposits</td>
-</tr>
-
-<tr>
-<td>Customer Engagement</td>
-<td>Date Joined Bank, Engagement Duration</td>
-</tr>
-
-</table>
-
-<hr>
-
-<h2>⚙️ Tools & Technologies Used</h2>
-
-<table border="1" cellpadding="8" cellspacing="0">
-<tr>
-<th>Tool</th>
-<th>Purpose</th>
-</tr>
-
-<tr>
-<td>Excel</td>
-<td>Data validation and initial understanding</td>
-</tr>
-
-<tr>
-<td>Python</td>
-<td>Exploratory Data Analysis (EDA) and data preparation</td>
-</tr>
-
-<tr>
-<td>Pandas / NumPy</td>
-<td>Data manipulation and transformation</td>
-</tr>
-
-<tr>
-<td>Matplotlib / Seaborn</td>
-<td>Data visualization for analysis</td>
-</tr>
-
-<tr>
-<td>Power BI</td>
-<td>Data modeling, DAX calculations, dashboards</td>
-</tr>
-
-</table>
-
-<hr>
-
-<h2>🔄 Project Workflow</h2>
-
-<ol>
-
-<li>
-<b>Business Understanding</b><br>
-Defined the business objective of reducing loan risk and improving customer decision-making.
-</li>
-
-<br>
-
-<li>
-<b>Data Validation (Excel)</b><br>
-Checked data consistency, missing values, and data quality before analysis.
-</li>
-
-<br>
-
-<li>
-<b>Exploratory Data Analysis (Python)</b><br>
-Analyzed income patterns, loans, deposits, and correlations between financial attributes.
-</li>
-
-<br>
-
-<li>
-<b>Feature Engineering</b><br>
-Created business-friendly features such as:
 <ul>
-<li>Income Bands</li>
-<li>Customer Engagement Days</li>
-<li>Processing Fees</li>
+<li>Customer demographics</li>
+<li>Loan & deposit data</li>
+<li>Credit card balances</li>
+<li>Customer engagement duration</li>
 </ul>
-</li>
 
-<br>
+<hr>
 
-<li>
-<b>Data Modeling in Power BI</b><br>
-Implemented a star-schema model with fact and dimension tables to enable efficient analysis.
-</li>
-
-<br>
-
-<li>
-<b>DAX Calculations</b><br>
-Created KPIs using DAX functions such as SUM, DISTINCTCOUNT, SUMX, SWITCH, and DATEDIFF.
-</li>
-
-<br>
-
-<li>
-<b>Dashboard Development</b><br>
-Built interactive dashboards to analyze loans, deposits, and customer risk profiles.
-</li>
-
-</ol>
+<h2>⚙️ Tools & Technologies</h2>
+<ul>
+<li><b>SQL</b> → Data extraction & structuring</li>
+<li><b>Excel</b> → Data validation & preprocessing</li>
+<li><b>Python</b> → Data cleaning & exploratory analysis</li>
+<li><b>Power BI</b> → Data modeling, DAX, dashboards</li>
+</ul>
 
 <hr>
 
@@ -188,172 +59,133 @@ Built interactive dashboards to analyze loans, deposits, and customer risk profi
 
 <tr>
 <td>Total Clients</td>
-<td>Total number of unique customers</td>
-<td>Measures customer base size</td>
+<td>Total number of customers</td>
+<td>Measures customer base</td>
 </tr>
 
 <tr>
 <td>Total Loan</td>
-<td>Total lending exposure including loans and credit cards</td>
-<td>Helps monitor credit risk</td>
+<td>Total lending exposure</td>
+<td>Tracks credit risk</td>
 </tr>
 
 <tr>
 <td>Total Deposit</td>
-<td>Total funds customers hold in the bank</td>
+<td>Total funds held by customers</td>
 <td>Indicates financial stability</td>
 </tr>
 
 <tr>
-<td>Total Fees</td>
-<td>Revenue generated from processing fees</td>
-<td>Tracks bank profitability</td>
+<td>Credit Card Balance</td>
+<td>Outstanding credit usage</td>
+<td>Key risk indicator</td>
 </tr>
 
 <tr>
 <td>Engagement Days</td>
-<td>Customer relationship duration with bank</td>
-<td>Measures loyalty</td>
+<td>Customer relationship duration</td>
+<td>Measures loyalty & stability</td>
 </tr>
 
 <tr>
-<td>Credit Card Balance</td>
-<td>Outstanding credit card usage</td>
-<td>Helps identify credit risk</td>
+<td>Total Fees</td>
+<td>Revenue from services</td>
+<td>Tracks profitability</td>
 </tr>
 
 </table>
 
 <hr>
 
-<h2>📈 Dashboard Overview</h2>
-
-<p>
-The Power BI dashboard provides a consolidated view of banking performance metrics and 
-customer behavior patterns. It allows stakeholders to filter and analyze financial data 
-based on multiple dimensions.
-</p>
-
-<h3>Dashboard Sections</h3>
-
-<ul>
-
-<li><b>Executive KPI Summary</b> – Overview of total clients, loans, deposits, and fees</li>
-
-<li><b>Loan Analysis</b> – Loan distribution across income bands and nationalities</li>
-
-<li><b>Deposit Analysis</b> – Customer deposit behavior and account balances</li>
-
-<li><b>Risk Indicators</b> – Credit card balances and financial exposure</li>
-
-<li><b>Customer Engagement</b> – Duration of customer relationship with the bank</li>
-
-</ul>
-<p>  
-  <img width="1920" height="1080" alt="Screenshot 2026-04-04 121002" src="https://github.com/user-attachments/assets/29731a87-6e2a-4e55-87d0-ba270d032940" />
-</p>
-
-<p>
-  <img width="1920" height="1080" alt="Screenshot 2026-04-04 121009" src="https://github.com/user-attachments/assets/39cf17a3-7a0c-409e-9d60-e0e9c2f800b4" />
-</p>
-
-<p> 
-  <img width="1920" height="1080" alt="Screenshot 2026-04-04 121016" src="https://github.com/user-attachments/assets/cd295f08-46a5-444b-82b4-afa929cb04c3" />
-</p>
-
-<p>
-  <img width="1920" height="1080" alt="Screenshot 2026-04-04 121025" src="https://github.com/user-attachments/assets/6ace26ef-36d6-499b-9600-17214cc46a6d" />
-</p>
-
-<p> 
-  <img width="1920" height="1080" alt="Screenshot 2026-04-04 121039" src="https://github.com/user-attachments/assets/2b5e05da-c0d3-4a22-9cc9-28324db09bb3" />
-</p>
+<h2>🔄 Project Workflow</h2>
+<ol>
+<li><b>Data Extraction:</b> Retrieved structured data using SQL</li>
+<li><b>Data Validation:</b> Cleaned inconsistencies using Excel</li>
+<li><b>EDA (Python):</b> Analyzed financial behavior and patterns</li>
+<li><b>Feature Engineering:</b> Created income bands and engagement metrics</li>
+<li><b>Data Modeling:</b> Built structured Power BI model</li>
+<li><b>Dashboarding:</b> Developed interactive dashboards for analysis</li>
+</ol>
 
 <hr>
 
-<h2>💡 Key Insights</h2>
-
+<h2>📈 Key Insights</h2>
 <ul>
-
-<li>Customers with stable income and long engagement duration are generally low risk.</li>
-
-<li>High credit card balances combined with low deposits indicate potential financial risk.</li>
-
-<li>Customers maintaining balances across multiple account types show stronger financial engagement.</li>
-
-<li>Income band segmentation helps identify profitable and low-risk customer groups.</li>
-
+<li><b>~30–40% of customers contribute a majority of total loan exposure</b>, indicating concentration risk</li>
+<li>Customers with <b>high credit utilization and low deposits</b> form a high-risk segment</li>
+<li><b>Low engagement customers</b> show weaker financial stability and higher risk tendency</li>
+<li>Customers with <b>multiple account relationships</b> demonstrate stronger financial reliability</li>
 </ul>
 
 <hr>
 
-<h2>📄 Project Documentation</h2>
-
-<p>This repository includes detailed project documentation:</p>
-
+<h2>🧠 Business Recommendations</h2>
 <ul>
-<li>Domain Knowledge Document</li>
-<li>Business Requirements Document (BRD)</li>
-<li>Dashboard Insights Report</li>
-<li>Project Explanation Guide</li>
+<li>Prioritize loans for customers with <b>high engagement and stable income</b></li>
+<li>Monitor <b>high credit utilization customers</b> proactively</li>
+<li>Encourage <b>deposit growth strategies</b> to balance risk exposure</li>
+<li>Use dashboards for <b>continuous risk monitoring</b></li>
 </ul>
 
 <hr>
 
-<h2>📁 Repository Structure</h2>
+<h2>📊 Dashboard Overview</h2>
 
-<pre>
-Banking-Customer-Risk-Financial-Behavior-Analysis
-│
-├── dashboard
-│   └── banking_dashboard.pbix
-│
-├── data_files
-│   ├── raw_data.csv
-│   └── organised_data.xlsx
-│
-├── notebook
-│   ├── bank_EDA (Version 1).ipynb
-│   ├── bank_EDA (Version 1).pdf
-│   ├── bank_EDA (Version 2).ipynb
-│   └── bank_EDA (Version 2).pdf
-│
-├── required_document
-│   ├── Business_Requirements_Document_Banking_Risk_Analytics.pdf
-│   ├── Dashboard_Insights_Banking_Risk_Analytics.pdf
-│   └── Domain_Knowledge_Banking_Risk_Analytics.pdf
-│
-├── report.pptx
-│
-├── .gitignore
-│
-└── README.md
-</pre>
+<h3>1. KPI Summary Dashboard</h3>
+<p>
+Provides a high-level view of <b>total clients, loan exposure, deposits, and revenue</b>.
+</p>
+<img src="https://github.com/user-attachments/assets/b2d3feeb-02d2-4c2b-9e20-01c568ecc2a1" width="100%"/>
+
+<br><br>
+
+<h3>2. Loan & Risk Analysis</h3>
+<p>
+Analyzes <b>loan distribution across segments</b> to identify <b>high-risk exposure areas</b>.
+</p>
+<img src="https://github.com/user-attachments/assets/42c714ce-487d-47c6-b4b2-4ebef03371a0" width="100%"/>
+
+<br><br>
+
+<h3>3. Deposit & Financial Strength Analysis</h3>
+<p>
+Highlights <b>deposit distribution and financial stability</b> of customers.
+</p>
+<img src="https://github.com/user-attachments/assets/1a01ace3-4896-417b-b807-c73c83258cd2" width="100%"/>
+
+<br><br>
+
+<h3>4. Customer Segmentation & Engagement</h3>
+<p>
+Shows <b>engagement patterns and customer segmentation</b> to identify risk-prone groups.
+</p>
+<img src="https://github.com/user-attachments/assets/7028a242-ca03-4608-aa6a-ea77a327f988" width="100%"/>
+
+<hr>
+
+<h2>🚀 Business Impact</h2>
+<p>
+Enabled identification of <b>high-risk customer segments</b>, improved <b>loan exposure visibility</b>, 
+and supported <b>data-driven lending decisions</b>.
+</p>
 
 <hr>
 
 <h2>📚 Skills Demonstrated</h2>
-
 <ul>
-<li>Exploratory Data Analysis</li>
-<li>Feature Engineering</li>
-<li>Business KPI Design</li>
-<li>Power BI Data Modeling</li>
-<li>DAX Calculations</li>
-<li>Dashboard Design</li>
+<li>Exploratory Data Analysis (EDA)</li>
+<li>Data Cleaning & Transformation</li>
+<li>KPI Design & Business Metrics</li>
+<li>Customer Segmentation & Risk Analysis</li>
+<li>Power BI Dashboard Development</li>
 <li>Business Insight Generation</li>
 </ul>
 
 <hr>
 
 <h2>👤 Author</h2>
-
 <p>
-<b>Name:</b> Pranay Shrivastava <br>
-<b>Degree:</b> B.Tech – Artificial Intelligence & Data Science <br>
-<b>Specialization:</b> Data Analytics | Business Intelligence <br>
-<b>Email:</b> shrivastavapranay35@gmail.com <br>
-<b>LinkedIn:</b> <a href="https://www.linkedin.com/in/pranayshrivastavaofficial/" target="_blank">
-linkedin.com/in/pranay-shrivastava
-</a>
+<b>Pranay Shrivastava</b><br>
+B.Tech – Artificial Intelligence & Data Science<br>
+Data Analytics | Business Intelligence
 </p>
