@@ -71,14 +71,14 @@ To analyze customer financial behavior and develop <b>risk indicators</b> that h
 
 <p><b>Customer Risk Segmentation Dashboard:</b> 
 Provides a consolidated view of key banking KPIs including total clients, loans, deposits, and engagement metrics, enabling identification of high-risk customer segments and overall portfolio health.</p>
-<br>
+<hr>
 
 <h3>Credit Utilization & Loan Analysis</h3>
 <img width="1296" height="725" alt="Credit Utilization   Loan Analysis" src="https://github.com/user-attachments/assets/96e93c94-0583-4b48-ad2e-0aabbc8b5ea7" />
 
 <p><b>Credit Utilization & Loan Analysis:</b> 
 Analyzes loan distribution across banking relationships, income bands, and credit card usage, helping identify customers with high debt exposure and potential default risk.</p>
-<br>
+<hr>
 
 <h3>Financial Behavior Trends</h3>
 <img width="1296" height="716" alt="Financial Behavior Trends" src="https://github.com/user-attachments/assets/523b03d8-3732-4ad6-a04d-c46973ed7053" />
