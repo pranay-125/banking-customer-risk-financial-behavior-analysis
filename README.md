@@ -67,17 +67,20 @@ To analyze customer financial behavior and develop <b>risk indicators</b> that h
 <h2>📊 Dashboard Preview</h2>
 
 <h3>Customer Risk Segmentation Dashboard</h3>
-<img src="https://github.com/user-attachments/assets/dc0bc52e-a763-4e54-bf6d-87e173046a17" width="100%">
+<img width="1296" height="706" alt="Customer Risk Segmentation Dashboard" src="https://github.com/user-attachments/assets/7072a1cb-d7d0-4cbf-b0c3-4b0fe6f1134b" />
+
 <p><b>Customer Risk Segmentation Dashboard:</b> 
 Provides a consolidated view of key banking KPIs including total clients, loans, deposits, and engagement metrics, enabling identification of high-risk customer segments and overall portfolio health.</p>
 
 <h3>Credit Utilization & Loan Analysis</h3>
-<img src="https://github.com/user-attachments/assets/cd740dd0-188c-4eb6-8e53-0e891877cbe4" width="100%">
+<img width="1296" height="725" alt="Credit Utilization   Loan Analysis" src="https://github.com/user-attachments/assets/96e93c94-0583-4b48-ad2e-0aabbc8b5ea7" />
+
 <p><b>Credit Utilization & Loan Analysis:</b> 
 Analyzes loan distribution across banking relationships, income bands, and credit card usage, helping identify customers with high debt exposure and potential default risk.</p>
 
 <h3>Financial Behavior Trends</h3>
-<img src="https://github.com/user-attachments/assets/374af29a-aa2c-4bf7-ae0f-5e8985878243" width="100%">
+ <img width="1296" height="716" alt="Financial Behavior Trends" src="https://github.com/user-attachments/assets/523b03d8-3732-4ad6-a04d-c46973ed7053" />
+
 <p><b>Financial Behavior Trends:</b> 
 Visualizes deposit patterns, account balances, and customer segmentation by income and geography, providing insights into financial stability and behavioral risk indicators.</p>
 
