@@ -1,192 +1,120 @@
-<h1 align="center">📊 Customer Credit Risk & Financial Behavior Analysis</h1>
+<h1 align="center">Customer Credit Risk Intelligence & Financial Behavior Analysis</h1>
 
 <p align="center">
-End-to-End Data Analytics Project | SQL • Excel • Python • Power BI
+<b>Financial Analytics | Risk Segmentation | Behavioral Analysis | Power BI Dashboard</b>
 </p>
 
 <hr>
 
-<h2>🎯 Problem Statement</h2>
+<h2>🚀 Project Highlights</h2>
+
+<ul>
+<li>Analyzed <b>24,000+ banking customer records</b></li>
+<li>Built <b>risk segmentation model</b> based on financial behavior</li>
+<li>Identified <b>high-risk customer segments</b> using key indicators</li>
+<li>Developed <b>Power BI dashboards</b> for risk monitoring</li>
+<li>Enabled data-driven credit decision insights</li>
+</ul>
+
+<hr>
+
+<h2>📌 Business Problem</h2>
+
 <p>
-Banks face significant <b>credit risk</b> when loan decisions are made without structured analysis of customer financial behavior. 
-This project focuses on identifying <b>high-risk customer segments</b>, analyzing <b>loan exposure</b>, and enabling 
-<b>data-driven lending decisions</b>.
+Banks often face challenges in identifying <b>high-risk customers</b> due to limited visibility into financial behavior patterns, leading to increased loan defaults and financial losses.
 </p>
 
-<hr>
+<h2>🎯 Objective</h2>
 
-<h2>💼 Business Objective</h2>
-<ul>
-<li>Evaluate <b>customer risk profiles</b> using financial and engagement data</li>
-<li>Monitor <b>loan exposure and credit utilization</b></li>
-<li>Identify <b>high-risk customer segments</b></li>
-<li>Enable <b>better lending and risk management decisions</b></li>
-</ul>
-
-<hr>
-
-<h2>📂 Dataset Overview</h2>
 <p>
-This project analyzes <b>24K+ banking customer records</b> including:
+To analyze customer financial behavior and develop <b>risk indicators</b> that help identify high-risk segments and support better credit decision-making.
 </p>
+
+<hr>
+
+<h2>📂 Dataset</h2>
+
 <ul>
-<li>Customer demographics</li>
-<li>Loan & deposit data</li>
-<li>Credit card balances</li>
-<li>Customer engagement duration</li>
+<li>Customer demographics and income data</li>
+<li>Loan and deposit records</li>
+<li>Credit card usage and financial activity</li>
 </ul>
 
 <hr>
 
-<h2>⚙️ Tools & Technologies</h2>
-<ul>
-<li><b>SQL</b> → Data extraction & structuring</li>
-<li><b>Excel</b> → Data validation & preprocessing</li>
-<li><b>Python</b> → Data cleaning & exploratory analysis</li>
-<li><b>Power BI</b> → Data modeling, DAX, dashboards</li>
-</ul>
+<h2>⚙️ Approach</h2>
 
-<hr>
-
-<h2>📊 Key Performance Indicators (KPIs)</h2>
-
-<table border="1" cellpadding="8" cellspacing="0">
-<tr>
-<th>KPI</th>
-<th>Description</th>
-<th>Business Importance</th>
-</tr>
-
-<tr>
-<td>Total Clients</td>
-<td>Total number of customers</td>
-<td>Measures customer base</td>
-</tr>
-
-<tr>
-<td>Total Loan</td>
-<td>Total lending exposure</td>
-<td>Tracks credit risk</td>
-</tr>
-
-<tr>
-<td>Total Deposit</td>
-<td>Total funds held by customers</td>
-<td>Indicates financial stability</td>
-</tr>
-
-<tr>
-<td>Credit Card Balance</td>
-<td>Outstanding credit usage</td>
-<td>Key risk indicator</td>
-</tr>
-
-<tr>
-<td>Engagement Days</td>
-<td>Customer relationship duration</td>
-<td>Measures loyalty & stability</td>
-</tr>
-
-<tr>
-<td>Total Fees</td>
-<td>Revenue from services</td>
-<td>Tracks profitability</td>
-</tr>
-
-</table>
-
-<hr>
-
-<h2>🔄 Project Workflow</h2>
 <ol>
-<li><b>Data Extraction:</b> Retrieved structured data using SQL</li>
-<li><b>Data Validation:</b> Cleaned inconsistencies using Excel</li>
-<li><b>EDA (Python):</b> Analyzed financial behavior and patterns</li>
-<li><b>Feature Engineering:</b> Created income bands and engagement metrics</li>
-<li><b>Data Modeling:</b> Built structured Power BI model</li>
-<li><b>Dashboarding:</b> Developed interactive dashboards for analysis</li>
-<li><b>Advanced Interaction:</b> Implemented drill-through functionality in Power BI to enable detailed customer-level analysis and deeper exploration of risk segments</li>
+<li><b>Data Cleaning:</b> Processed data using SQL & Excel</li>
+<li><b>EDA:</b> Analyzed financial relationships using Python</li>
+<li><b>Feature Engineering:</b> Created income bands & risk indicators</li>
+<li><b>Segmentation:</b> Classified customers based on risk levels</li>
+<li><b>Visualization:</b> Built Power BI dashboards</li>
 </ol>
 
 <hr>
 
-<h2>📈 Key Insights</h2>
+<h2>📊 Key Metrics</h2>
+
 <ul>
-<li><b>~30–40% of customers contribute a majority of total loan exposure</b>, indicating concentration risk</li>
-<li>Customers with <b>high credit utilization and low deposits</b> form a high-risk segment</li>
-<li><b>Low engagement customers</b> show weaker financial stability and higher risk tendency</li>
-<li>Customers with <b>multiple account relationships</b> demonstrate stronger financial reliability</li>
+<li><b>Loan-to-Income Ratio:</b> Measures debt burden</li>
+<li><b>Credit Utilization Rate:</b> Indicates credit risk</li>
+<li><b>Deposit Behavior:</b> Reflects financial stability</li>
 </ul>
 
 <hr>
 
-<h2>🧠 Business Recommendations</h2>
+<h2>📊 Dashboard Preview</h2>
+
+<h3>Customer Risk Segmentation Dashboard</h3>
+<img src="https://github.com/user-attachments/assets/dc0bc52e-a763-4e54-bf6d-87e173046a17" width="100%">
+<p><b>Customer Risk Segmentation Dashboard:</b> 
+Provides a consolidated view of key banking KPIs including total clients, loans, deposits, and engagement metrics, enabling identification of high-risk customer segments and overall portfolio health.</p>
+
+<h3>Credit Utilization & Loan Analysis</h3>
+<img src="https://github.com/user-attachments/assets/cd740dd0-188c-4eb6-8e53-0e891877cbe4" width="100%">
+<p><b>Credit Utilization & Loan Analysis:</b> 
+Analyzes loan distribution across banking relationships, income bands, and credit card usage, helping identify customers with high debt exposure and potential default risk.</p>
+
+<h3>Financial Behavior Trends</h3>
+<img src="https://github.com/user-attachments/assets/374af29a-aa2c-4bf7-ae0f-5e8985878243" width="100%">
+<p><b>Financial Behavior Trends:</b> 
+Visualizes deposit patterns, account balances, and customer segmentation by income and geography, providing insights into financial stability and behavioral risk indicators.</p>
+
+
+<hr>
+
+<h2>🔍 Key Insights</h2>
+
 <ul>
-<li>Prioritize loans for customers with <b>high engagement and stable income</b></li>
-<li>Monitor <b>high credit utilization customers</b> proactively</li>
-<li>Encourage <b>deposit growth strategies</b> to balance risk exposure</li>
-<li>Use dashboards for <b>continuous risk monitoring</b></li>
+<li>Customers with <b>high loan-to-income ratios</b> showed increased default risk</li>
+<li>High <b>credit utilization</b> strongly correlated with risk segments</li>
+<li>Certain segments displayed <b>unstable financial behavior patterns</b></li>
 </ul>
 
 <hr>
 
-<h2>📊 Dashboard Overview</h2>
+<h2>💼 Business Impact</h2>
 
-<h3>1. KPI Summary Dashboard</h3>
-<p>
-Provides a high-level view of <b>total clients, loan exposure, deposits, and revenue</b>.
-</p>
-<img width="1920" height="986" alt="Screenshot 2026-04-04 121002" src="https://github.com/user-attachments/assets/a1d0a6a9-c230-449f-9830-d4b821a32010" />
-
-<br><br>
-
-<h3>2. Loan & Risk Analysis</h3>
-<p>
-Analyzes <b>loan distribution across segments</b> to identify <b>high-risk exposure areas</b>.
-</p>
-<img width="1920" height="999" alt="Screenshot 2026-04-04 121009" src="https://github.com/user-attachments/assets/a4e5e321-b908-4d6d-88ea-468f0d511a34" />
-
-<br><br>
-
-<h3>3. Deposit & Financial Strength Analysis</h3>
-<p>
-Highlights <b>deposit distribution and financial stability</b> of customers.
-</p>
-<img width="1920" height="990" alt="Screenshot 2026-04-04 121016" src="https://github.com/user-attachments/assets/783a36e0-ffdd-4e3e-bf37-bc19f5021a5d" />
-
-<br><br>
-
-<h3>4. Customer Segmentation & Engagement</h3>
-<p>
-Shows <b>engagement patterns and customer segmentation</b> to identify risk-prone groups.
-</p>
-<img width="1920" height="990" alt="Screenshot 2026-04-04 121025" src="https://github.com/user-attachments/assets/7f928650-c9d5-4fe7-aa0f-4a7c23368e33" />
-
-<hr>
-
-<h2>🚀 Business Impact</h2>
-<p>
-Enabled identification of <b>high-risk customer segments</b>, improved <b>loan exposure visibility</b>, 
-and supported <b>data-driven lending decisions</b>.
-</p>
-
-<hr>
-
-<h2>📚 Skills Demonstrated</h2>
 <ul>
-<li>Exploratory Data Analysis (EDA)</li>
-<li>Data Cleaning & Transformation</li>
-<li>KPI Design & Business Metrics</li>
-<li>Customer Segmentation & Risk Analysis</li>
-<li>Power BI Dashboard Development</li>
-<li>Business Insight Generation</li>
+<li>Enabled early identification of <b>high-risk customers</b></li>
+<li>Supported <b>better credit approval decisions</b></li>
+<li>Helped reduce potential <b>loan default exposure</b></li>
 </ul>
 
 <hr>
 
-<h2>👤 Author</h2>
+<h2>👨‍💻 My Role</h2>
+
+<ul>
+<li>End-to-end Data Analyst</li>
+<li>Performed data cleaning, analysis, and dashboard development</li>
+</ul>
+
+<hr>
+
+<h2>🛠 Tools & Technologies</h2>
+
 <p>
-<b>Pranay Shrivastava</b><br>
-B.Tech – Artificial Intelligence & Data Science<br>
-Data Analytics | Business Intelligence
+SQL | Excel | Python | Power BI
 </p>
