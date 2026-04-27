@@ -223,5 +223,8 @@ This project demonstrates how structured data analysis can reduce lending risk, 
 <p>
 <b>Pranay Shrivastava</b><br>
 B.Tech – Artificial Intelligence & Data Science<br>
-Data Analytics | Business Intelligence
+<b>Specialization:</b> Data Analytics | Business Intelligence<br>
+<a href="mailto:shrivastavapranay.35@gmail.com">Email</a> |
+<a href="https://www.linkedin.com/in/pranayshrivastavaofficial/">LinkedIn</a> |
+<a href="https://github.com/pranay-125">GitHub</a>
 </p>
