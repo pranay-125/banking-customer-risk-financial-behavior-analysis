@@ -7,7 +7,7 @@ Customer Credit Risk & Financial Behavior Analysis
 
 <p align="center">
 <img src="https://img.shields.io/badge/Domain-Banking%20Analytics-blue" />
-<img src="https://img.shields.io/badge/Tools-Python%20%7C%20PowerBI%20%7C%20Excel-orange" />
+<img src="https://img.shields.io/badge/Tools-Python%20%7C%20SQL%20%7C%20PowerBI%20%7C%20Excel-orange" />
 <img src="https://img.shields.io/badge/Focus-Credit%20Risk%20Analysis-green" />
 </p>
 
