@@ -64,30 +64,71 @@ To analyze customer financial behavior and develop <b>risk indicators</b> that h
 
 <hr>
 
-<h2>📊 Dashboard Preview</h2>
+<<h2>📊 Dashboard Preview</h2>
+
+<p>
+<b>Dashboard Objective:</b> To provide a comprehensive banking analytics solution that enables stakeholders to assess customer credit risk, monitor financial exposure, and support data-driven lending decisions using financial and behavioral insights.
+</p>
+
+<hr>
 
 <h3>Customer Risk Segmentation Dashboard</h3>
+
 <img width="1296" height="706" alt="Customer Risk Segmentation Dashboard" src="https://github.com/user-attachments/assets/7072a1cb-d7d0-4cbf-b0c3-4b0fe6f1134b" />
 
-<p><b>Customer Risk Segmentation Dashboard:</b> 
-Provides a consolidated view of key banking KPIs including total clients, loans, deposits, and engagement metrics, enabling identification of high-risk customer segments and overall portfolio health.</p>
+<p>
+<b>Customer Risk Segmentation Dashboard:</b> 
+Provides a consolidated view of key banking KPIs including <b>Total Clients, Total Loan Exposure, Total Deposits, and Customer Engagement</b>. 
+The dashboard enables identification of high-risk vs low-risk customer segments by combining financial metrics with behavioral indicators.
+</p>
+
+<p>
+<b>Business Insight:</b> Enables stakeholders to evaluate overall portfolio health, detect risk concentration, and prioritize safe lending decisions based on customer financial stability.
+</p>
+
 <hr>
 
 <h3>Credit Utilization & Loan Analysis</h3>
-<img width="1296" height="725" alt="Credit Utilization   Loan Analysis" src="https://github.com/user-attachments/assets/96e93c94-0583-4b48-ad2e-0aabbc8b5ea7" />
 
-<p><b>Credit Utilization & Loan Analysis:</b> 
-Analyzes loan distribution across banking relationships, income bands, and credit card usage, helping identify customers with high debt exposure and potential default risk.</p>
+<img width="1296" height="725" alt="Credit Utilization & Loan Analysis" src="https://github.com/user-attachments/assets/96e93c94-0583-4b48-ad2e-0aabbc8b5ea7" />
+
+<p>
+<b>Credit Utilization & Loan Analysis:</b> 
+Analyzes loan distribution across <b>income bands, banking relationships, and credit card usage</b> to identify customers with high debt exposure.
+It combines <b>Bank Loans, Business Lending, and Credit Card Balances</b> to provide a complete view of credit risk.
+</p>
+
+<p>
+<b>Business Insight:</b> Helps risk teams detect high exposure customers, monitor loan-to-deposit imbalance, and refine lending strategies to minimize default risk.
+</p>
+
 <hr>
 
 <h3>Financial Behavior Trends</h3>
+
 <img width="1296" height="716" alt="Financial Behavior Trends" src="https://github.com/user-attachments/assets/523b03d8-3732-4ad6-a04d-c46973ed7053" />
 
-<p><b>Financial Behavior Trends:</b> 
-Visualizes deposit patterns, account balances, and customer segmentation by income and geography, providing insights into financial stability and behavioral risk indicators.</p>
+<p>
+<b>Financial Behavior Trends:</b> 
+Visualizes customer financial activity including <b>deposit patterns, savings and checking balances, and income-based segmentation</b>. 
+It highlights how customers manage funds across accounts and their overall financial strength.
+</p>
 
+<p>
+<b>Business Insight:</b> Identifies financially stable and high-value customers, supports customer segmentation, and enables targeted strategies for retention and risk reduction.
+</p>
 
 <hr>
+
+<h3>📌 Overall Business Value</h3>
+
+<p>
+This dashboard transforms raw banking data into actionable insights by integrating customer financial behavior, credit exposure, and engagement metrics into a single interactive platform.
+</p>
+
+<p>
+<b>Final Outcome:</b> Supports data-driven lending decisions, improves credit risk assessment, enhances customer segmentation, and enables proactive financial risk management.
+</p>
 
 <h2>🔍 Key Insights</h2>
 
