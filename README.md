@@ -198,18 +198,6 @@ Helps identify high-value customers contributing to stable revenue and supports 
 
 <hr>
 
-<h2>🧠 What Recruiters Should Notice</h2>
-
-<ul>
-<li><b>Quantified Analysis</b> – Not just visuals, but measurable insights</li>
-<li><b>End-to-End Ownership</b> – Data → EDA → Modeling → Dashboard</li>
-<li><b>Business Thinking</b> – Focus on risk reduction & lending strategy</li>
-<li><b>Technical Depth</b> – Python EDA, DAX, Data Modeling</li>
-<li><b>Real-world Relevance</b> – Banking risk analytics (high demand domain)</li>
-</ul>
-
-<hr>
-
 <h2>🏆 Final Outcome</h2>
 
 <p>
