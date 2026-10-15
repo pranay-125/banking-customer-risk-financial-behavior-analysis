@@ -1,15 +1,15 @@
+```html
 <h1 align="center">🏦 Banking Customer Risk & Financial Behavior Analysis</h1>
 
 <p align="center">
-  <b>End-to-End Data Analytics & Business Intelligence Project</b><br>
-  Customer Financial Profiling • Lending Exposure • Deposit Analysis • Power BI
+  <b>Customer Financial Analysis | Lending Exposure | Deposit Behavior | Power BI</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Domain-Banking%20Analytics-1f6feb?style=for-the-badge" alt="Banking Analytics">
   <img src="https://img.shields.io/badge/Power%20BI-Dashboard-f2c811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
-  <img src="https://img.shields.io/badge/Python-EDA-3776ab?style=for-the-badge&logo=python&logoColor=white" alt="Python EDA">
-  <img src="https://img.shields.io/badge/Excel-Data%20Preparation-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel">
+  <img src="https://img.shields.io/badge/Python-Pandas-3776ab?style=for-the-badge&logo=python&logoColor=white" alt="Python and Pandas">
+  <img src="https://img.shields.io/badge/Excel-Data%20Validation-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Microsoft Excel">
 </p>
 
 <p align="center">
@@ -23,54 +23,50 @@
 <h2>📌 Project Overview</h2>
 
 <p>
-This project explores banking customer financial profiles, lending exposure, deposit balances, account holdings, income segments, and customer relationship information using Python-based exploratory data analysis (EDA), Excel, and Power BI.
+This project analyzes banking customer financial information, including bank loans, business lending, deposits, account balances, credit-card balances, income segments, and customer relationship attributes.
 </p>
 
 <p>
-The objective is to organize customer-level financial data into measurable portfolio indicators and interactive dashboard views that help users examine the distribution of lending, deposits, account balances, and customer segments.
+Using Python, Pandas, Excel, and Power BI, the project organizes financial data, validates selected figures, examines relationships between numeric variables, and presents portfolio information through a four-page dashboard.
 </p>
 
 <p>
-The project focuses on <b>descriptive analytics and financial exposure analysis</b>. The available dataset does not provide a validated loan-default outcome, so the analysis does not claim to predict defaults, establish repayment performance, or prove that a particular customer segment is safer to lend to.
+The analysis focuses on descriptive financial analytics and lending exposure. Although the project title refers to customer risk, the available analysis does not establish a validated loan-default prediction model or prove that a customer segment has a higher or lower probability of default.
 </p>
 
 <hr>
 
-<h2>🎯 Business Problem</h2>
-
-<p>
-Banking datasets contain multiple financial measures and customer attributes that can be difficult to assess in isolation. This project structures those measures into a dashboard to help explore the following questions:
-</p>
+<h2>🎯 Business Objectives</h2>
 
 <ul>
-  <li>How is the customer portfolio distributed across income and relationship segments?</li>
-  <li>What is the recorded value of bank loans and business lending?</li>
-  <li>How are bank deposits distributed alongside checking, savings, and foreign-currency account balances?</li>
-  <li>How do credit-card balances and other financial measures vary across the available customer data?</li>
-  <li>What descriptive relationships exist between selected financial variables?</li>
-  <li>How can KPI cards, charts, and filters make portfolio information easier to explore?</li>
+  <li>Examine the distribution of customers across relationship and income segments.</li>
+  <li>Analyze bank loans, business lending, deposits, and account balances.</li>
+  <li>Explore lending concentration across available customer segments.</li>
+  <li>Validate dataset row counts, distinct Client IDs, and selected financial aggregates.</li>
+  <li>Use correlation analysis to examine relationships between deposits and account balances.</li>
+  <li>Present financial indicators through Power BI dashboard pages and filters.</li>
 </ul>
 
 <hr>
 
-<h2>🗂️ Dataset Overview</h2>
+<h2>🗂️ Dataset Overview & Validation</h2>
 
 <table>
   <tr>
-    <th align="left">Data Attribute</th>
-    <th align="left">Validated Information</th>
+    <th align="left">Data Check</th>
+    <th align="left">Result</th>
   </tr>
   <tr>
-    <td>Main dataset records</td>
-    <td>3,000 rows</td>
+    <td>Total dataset rows</td>
+    <td><b>3,000</b></td>
   </tr>
   <tr>
     <td>Distinct Client IDs</td>
-    <td>2,940</td>
+    <td><b>2,940</b></td>
   </tr>
   <tr>
-    <td>Repeated Client IDs</td>
-    <td>60 records beyond the distinct-ID count</td>
+    <td>Rows beyond the distinct-ID count</td>
+    <td><b>60</b></td>
   </tr>
   <tr>
     <td>Exact duplicate rows</td>
@@ -82,16 +78,16 @@ Banking datasets contain multiple financial measures and customer attributes tha
   </tr>
   <tr>
     <td>Customer attributes</td>
-    <td>Demographic, income-band, relationship, and classification fields</td>
+    <td>Relationship, income-band, demographic, and classification fields</td>
   </tr>
 </table>
 
 <p>
-<b>Data-quality note:</b> The dataset contains 3,000 rows but only 2,940 distinct Client IDs. Repeated IDs should not automatically be treated as erroneous duplicates because the records may contain differing values. The distinction between row counts and distinct customer counts is important when interpreting portfolio KPIs.
+<b>Data-quality clarification:</b> The dataset contains 3,000 rows and 2,940 distinct Client IDs. This means that some Client IDs occur more than once. No exact duplicate rows were detected in the reviewed dataset, but repeated Client IDs are not automatically erroneous duplicates and should not be removed without checking their records.
 </p>
 
 <p>
-The project files include a raw CSV and an organized Excel workbook. The organized workbook was used to validate selected aggregate financial figures against the dashboard.
+The project uses a raw CSV and an organized Excel workbook for data inspection and validation. The reported checks distinguish row counts from unique customer counts.
 </p>
 
 <hr>
@@ -101,318 +97,209 @@ The project files include a raw CSV and an organized Excel workbook. The organiz
 <table>
   <tr>
     <th align="left">Tool</th>
-    <th align="left">Project Application</th>
+    <th align="left">Application in the Project</th>
   </tr>
   <tr>
     <td><b>Python</b></td>
-    <td>Exploratory data analysis and statistical inspection</td>
+    <td>Data inspection and exploratory analysis</td>
   </tr>
   <tr>
     <td><b>Pandas</b></td>
     <td>Tabular data handling, grouping, and descriptive analysis</td>
   </tr>
   <tr>
-    <td><b>NumPy</b></td>
-    <td>Numerical analysis</td>
-  </tr>
-  <tr>
-    <td><b>Jupyter Notebook</b></td>
-    <td>Documenting and exploring the analytical workflow</td>
-  </tr>
-  <tr>
-    <td><b>Microsoft Excel</b></td>
-    <td>Organized dataset inspection and aggregate validation</td>
+    <td><b>Excel</b></td>
+    <td>Dataset inspection and validation of selected figures</td>
   </tr>
   <tr>
     <td><b>Power BI</b></td>
-    <td>Portfolio KPI cards, financial analysis visuals, and interactive reporting</td>
-  </tr>
-  <tr>
-    <td><b>DAX</b></td>
-    <td>Dashboard measures and aggregations, subject to the definitions implemented in the PBIX file</td>
+    <td>Financial KPI reporting, customer segmentation, and dashboard visualization</td>
   </tr>
 </table>
 
 <hr>
 
-<h2>📊 Dashboard Preview</h2>
+<h2>📊 Dashboard Overview</h2>
 
 <p>
-The Power BI dashboard presents an executive summary of banking portfolio measures alongside dedicated loan and deposit analysis views. The screenshots below illustrate the project's dashboard layout.
+The project presents banking portfolio information through four dashboard pages, with filters for relationship, gender, advisor, and time period, as described in the project resume.
 </p>
 
-<h3>1. 🧭 Customer Portfolio & KPI Summary</h3>
-
-<table>
-  <tr>
-    <td width="55%" valign="top">
-      <img width="100%" src="https://github.com/user-attachments/assets/7072a1cb-d7d0-4cbf-b0c3-4b0fe6f1134b" alt="Banking customer portfolio and KPI dashboard">
-    </td>
-    <td width="45%" valign="top">
-      <b>Dashboard coverage</b>
-      <ul>
-        <li>Distinct client count</li>
-        <li>Combined lending exposure</li>
-        <li>Bank loans and business lending</li>
-        <li>Deposit and account-balance measures</li>
-        <li>Credit-card balance and customer segmentation</li>
-      </ul>
-      <b>Purpose</b>
-      <p>Provides a consolidated view of selected portfolio measures and helps users navigate the main financial indicators.</p>
-    </td>
-  </tr>
-</table>
-
-<h3>2. 💳 Loan & Lending Exposure Analysis</h3>
-
-<table>
-  <tr>
-    <td width="45%" valign="top">
-      <b>Dashboard coverage</b>
-      <ul>
-        <li>Bank loan exposure</li>
-        <li>Business lending</li>
-        <li>Combined lending measure</li>
-        <li>Loan distribution across income bands</li>
-      </ul>
-      <b>Analytical purpose</b>
-      <p>Examines how recorded lending values are distributed across available portfolio segments. This is descriptive exposure analysis, not a validated assessment of default probability.</p>
-    </td>
-    <td width="55%" valign="top">
-      <img width="100%" src="https://github.com/user-attachments/assets/96e93c94-0583-4b48-ad2e-0aabbc8b5ea7" alt="Banking loan and lending exposure analysis dashboard">
-    </td>
-  </tr>
-</table>
-
-<h3>3. 📈 Deposit & Account Analysis</h3>
-
-<table>
-  <tr>
-    <td width="55%" valign="top">
-      <img width="100%" src="https://github.com/user-attachments/assets/523b03d8-3732-4ad6-a04d-c46973ed7053" alt="Banking deposit and account analysis dashboard">
-    </td>
-    <td width="45%" valign="top">
-      <b>Dashboard coverage</b>
-      <ul>
-        <li>Bank deposits</li>
-        <li>Checking account balances</li>
-        <li>Savings account balances</li>
-        <li>Foreign-currency account balances</li>
-        <li>Deposit distribution by customer relationship segment</li>
-      </ul>
-      <b>Analytical purpose</b>
-      <p>Compares recorded deposit and account measures to explore their distribution across the available customer segments.</p>
-    </td>
-  </tr>
-</table>
+<h3>1. Customer Portfolio & KPI Summary</h3>
 
 <p>
-<i>Dashboard screenshots are illustrative views of the report. Values displayed in the report should be interpreted using the metric definitions and validation notes documented below.</i>
+Provides an overview of selected customer and financial indicators, including distinct client count, lending measures, deposit measures, account balances, and customer segments.
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github.com/user-attachments/assets/7072a1cb-d7d0-4cbf-b0c3-4b0fe6f1134b" alt="Banking customer portfolio and KPI dashboard">
+</p>
+
+<h3>2. Loan & Lending Exposure</h3>
+
+<p>
+Examines bank loans and business lending, including their distribution across the available income and customer segments. These views describe recorded lending exposure rather than validated default risk.
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github.com/user-attachments/assets/96e93c94-0583-4b48-ad2e-0aabbc8b5ea7" alt="Banking loan and lending exposure dashboard">
+</p>
+
+<h3>3. Deposit & Account Analysis</h3>
+
+<p>
+Explores bank deposits and available account-balance measures, including checking, savings, and foreign-currency accounts, across the customer information represented in the dataset.
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github.com/user-attachments/assets/523b03d8-3732-4ad6-a04d-c46973ed7053" alt="Banking deposit and account analysis dashboard">
+</p>
+
+<p>
+<i>Dashboard images are illustrative. Financial totals should be interpreted using the definitions and validation limitations documented in this README.</i>
 </p>
 
 <hr>
 
-<h2>📌 Key Quantified Portfolio Metrics</h2>
+<h2>📈 Key Financial Metrics</h2>
 
 <p>
-The following figures were checked against the organized Excel data and/or the dashboard values previously reviewed. Currency amounts are expressed in US dollars, as represented in the dataset.
+The following values are based on the reviewed organized dataset. Amounts are expressed in US dollars as represented in the data.
 </p>
 
 <table>
   <tr>
     <th align="left">Metric</th>
-    <th align="left">Value</th>
-    <th align="left">Interpretation</th>
+    <th align="left">Reported Value</th>
+    <th align="left">Definition</th>
   </tr>
   <tr>
-    <td>Dataset rows</td>
-    <td><b>3,000</b></td>
-    <td>Records in the reviewed main customer dataset</td>
-  </tr>
-  <tr>
-    <td>Distinct Client IDs</td>
+    <td>Distinct clients</td>
     <td><b>2,940</b></td>
-    <td>Unique client identifiers in the reviewed data</td>
+    <td>Count of distinct Client IDs</td>
   </tr>
   <tr>
-    <td>Bank Loans</td>
-    <td><b>~$1.774 billion</b></td>
+    <td>Bank loans</td>
+    <td><b>~$1.774B</b></td>
     <td>Sum of the Bank Loans field</td>
   </tr>
   <tr>
-    <td>Business Lending</td>
-    <td><b>~$2.600 billion</b></td>
+    <td>Business lending</td>
+    <td><b>~$2.600B</b></td>
     <td>Sum of the Business Lending field</td>
   </tr>
   <tr>
     <td>Combined lending measure</td>
-    <td><b>~$4.384 billion</b></td>
+    <td><b>~$4.384B</b></td>
     <td>Bank Loans + Business Lending + Credit Card Balance</td>
   </tr>
   <tr>
-    <td>Bank Deposits</td>
-    <td><b>~$2.015 billion</b></td>
+    <td>Bank deposits</td>
+    <td><b>~$2.015B</b></td>
     <td>Sum of the Bank Deposits field</td>
   </tr>
   <tr>
-    <td>Checking Accounts</td>
-    <td><b>~$963.28 million</b></td>
+    <td>Checking accounts</td>
+    <td><b>~$963.28M</b></td>
     <td>Sum of the Checking Accounts field</td>
   </tr>
   <tr>
-    <td>Saving Accounts</td>
-    <td><b>~$698.73 million</b></td>
+    <td>Savings accounts</td>
+    <td><b>~$698.73M</b></td>
     <td>Sum of the Saving Accounts field</td>
   </tr>
   <tr>
-    <td>Foreign Currency Account</td>
-    <td><b>~$89.65 million</b></td>
+    <td>Foreign-currency accounts</td>
+    <td><b>~$89.65M</b></td>
     <td>Sum of the Foreign Currency Account field</td>
   </tr>
   <tr>
     <td>Combined deposit/account measure</td>
-    <td><b>~$3.766 billion</b></td>
+    <td><b>~$3.766B</b></td>
     <td>Bank Deposits + Checking + Savings + Foreign Currency Account</td>
   </tr>
   <tr>
-    <td>Credit Card Balance</td>
-    <td><b>~$9.529 million</b></td>
+    <td>Credit-card balance</td>
+    <td><b>~$9.529M</b></td>
     <td>Sum of the Credit Card Balance field</td>
   </tr>
 </table>
 
 <p>
-<b>Important:</b> The combined lending and deposit/account figures are arithmetic aggregates of the listed fields. They should not automatically be interpreted as unique, non-overlapping exposures or customer funds until the business definitions and potential overlap between fields have been confirmed.
+<b>Metric interpretation:</b> The combined lending and deposit/account figures are arithmetic sums of the listed fields. Potential overlap between these measures has not been ruled out. They should therefore be described as combined measures, not assumed to represent unique, non-overlapping financial exposure or customer funds.
 </p>
 
 <hr>
 
-<h2>🔎 Descriptive Analysis & Relationships</h2>
+<h2>🔎 Lending Concentration Analysis</h2>
 
 <p>
-The reviewed organized dataset showed the following Pearson correlations between selected numeric fields:
+The project resume reports that Private Bank customers accounted for approximately <b>46% of the $1.77B bank loan book</b>. This is a reported portfolio-segmentation finding from the project.
+</p>
+
+<p>
+The analysis examines lending across relationship, income, and nationality segments. Segment percentages should always be interpreted against the specific lending measure and denominator used in the report.
+</p>
+
+<p>
+A separate Mid-income segment percentage is not included here because its denominator could not be established clearly from the reviewed documentation. It should be added only after confirming the underlying calculation.
+</p>
+
+<hr>
+
+<h2>📉 Correlation Analysis</h2>
+
+<p>
+The reviewed dataset showed positive Pearson correlations between bank deposits and selected account-balance fields.
 </p>
 
 <table>
   <tr>
     <th align="left">Variable Pair</th>
     <th align="left">Pearson Correlation (r)</th>
-    <th align="left">What It Indicates</th>
+    <th align="left">Interpretation</th>
   </tr>
   <tr>
     <td>Bank Deposits and Checking Accounts</td>
-    <td><b>~0.844</b></td>
+    <td><b>~0.84</b></td>
     <td>Strong positive linear association in the reviewed data</td>
   </tr>
   <tr>
-    <td>Bank Deposits and Saving Accounts</td>
-    <td><b>~0.755</b></td>
+    <td>Bank Deposits and Savings Accounts</td>
+    <td><b>~0.76</b></td>
     <td>Positive linear association in the reviewed data</td>
-  </tr>
-  <tr>
-    <td>Estimated Income and Risk Weighting</td>
-    <td><b>~0.665</b></td>
-    <td>Positive association; interpretation depends on the meaning and direction of Risk Weighting</td>
-  </tr>
-  <tr>
-    <td>Bank Loans and Business Lending</td>
-    <td><b>~0.417</b></td>
-    <td>Moderate positive linear association in the reviewed data</td>
-  </tr>
-  <tr>
-    <td>Credit Card Balance and Risk Weighting</td>
-    <td><b>~0.400</b></td>
-    <td>Positive association; not sufficient to establish credit-default risk</td>
   </tr>
 </table>
 
 <p>
-These coefficients describe relationships between variables in this dataset. They do not establish causation, prove repayment outcomes, or independently validate a credit-risk scoring rule.
+These correlations describe how the selected numeric variables vary together in this dataset. They do not demonstrate causation, establish customer repayment behavior, or independently validate a credit-risk scoring method.
 </p>
-
-<hr>
-
-<h2>🧮 KPI Definitions & Validation Notes</h2>
-
-<table>
-  <tr>
-    <th align="left">Dashboard KPI</th>
-    <th align="left">Definition / Validation Status</th>
-  </tr>
-  <tr>
-    <td>Total Clients</td>
-    <td>Dashboard shows 2,940 distinct clients. The main dataset contains 3,000 rows and 2,940 distinct Client IDs.</td>
-  </tr>
-  <tr>
-    <td>Total Loan</td>
-    <td>Approximately $4.384 billion using Bank Loans + Business Lending + Credit Card Balance. Confirm that this is the intended business definition in the Power BI model.</td>
-  </tr>
-  <tr>
-    <td>Total Deposit</td>
-    <td>Approximately $3.766 billion when Bank Deposits, Checking Accounts, Saving Accounts, and Foreign Currency Account are added together. Possible overlap between these fields has not been ruled out.</td>
-  </tr>
-  <tr>
-    <td>Total Fees</td>
-    <td>The dashboard displays approximately $158.19 million, but the organized dataset contains a categorical Fee Structure field rather than a directly validated monetary fee amount. This figure is therefore not presented as an independently verified revenue result.</td>
-  </tr>
-  <tr>
-    <td>Engagement Days / Duration</td>
-    <td>Used to explore customer relationship information. Do not interpret relationship duration as proof of repayment performance or lower default risk.</td>
-  </tr>
-  <tr>
-    <td>Credit Card Balance</td>
-    <td>Approximately $9.529 million from the source field. This is a balance measure, not a validated credit-utilization percentage.</td>
-  </tr>
-  <tr>
-    <td>Risk Weighting</td>
-    <td>The source contains values on a 1–5 scale, but the score's direction and business definition have not been independently confirmed. No high-risk/low-risk interpretation is asserted.</td>
-  </tr>
-</table>
 
 <hr>
 
 <h2>🔄 Project Workflow</h2>
 
 <ol>
-  <li><b>Data inspection:</b> Reviewed the raw CSV and organized Excel workbook.</li>
-  <li><b>Data validation:</b> Checked row counts, distinct client identifiers, and selected financial aggregates.</li>
-  <li><b>Exploratory data analysis:</b> Examined numerical summaries, distributions, customer segments, and selected correlations.</li>
-  <li><b>Financial analysis:</b> Compared lending measures, deposit measures, account balances, and credit-card balances.</li>
-  <li><b>Dashboard reporting:</b> Presented portfolio measures and segment-level views in Power BI.</li>
-  <li><b>Interpretation:</b> Distinguished directly calculated results from dashboard measures that still require business-definition validation.</li>
+  <li><b>Data inspection:</b> Reviewed the source CSV and organized Excel workbook.</li>
+  <li><b>Data validation:</b> Checked row counts, distinct Client IDs, and selected financial aggregates using Python and Excel.</li>
+  <li><b>Data integration:</b> Combined lending and deposit information for the customer portfolio analysis.</li>
+  <li><b>Exploratory analysis:</b> Examined financial distributions, customer segments, and selected correlations using Python and Pandas.</li>
+  <li><b>Dashboard development:</b> Presented lending, deposit, account-balance, and customer-segment information in Power BI.</li>
+  <li><b>Interpretation:</b> Distinguished calculated financial measures from metrics whose business definitions require additional confirmation.</li>
 </ol>
 
 <hr>
 
-<h2>📄 Project Documentation</h2>
-
-<p>The repository contains supporting project documentation, including:</p>
+<h2>⚠️ Limitations & Validation Notes</h2>
 
 <ul>
-  <li><b>Business Requirements Document:</b> Project objectives, scope, and KPI requirements.</li>
-  <li><b>Domain Knowledge Document:</b> Banking terminology and domain context.</li>
-  <li><b>Dashboard Insights Report:</b> A summary of dashboard views and intended interpretations.</li>
-  <li><b>EDA notebooks and exports:</b> Python-based exploratory analysis artifacts.</li>
-  <li><b>Power BI report:</b> The interactive dashboard file.</li>
-</ul>
-
-<p>
-Documentation that discusses default risk, repayment stability, or fee revenue should be read in light of the validation limitations stated in this README. Those outcomes have not been independently established by the reviewed dataset.
-</p>
-
-<hr>
-
-<h2>⚠️ Data Limitations & Analytical Boundaries</h2>
-
-<ul>
-  <li><b>No validated default target:</b> The reviewed data does not provide a verified loan-default outcome suitable for calculating a default rate or validating a default prediction.</li>
-  <li><b>Risk Weighting semantics:</b> The meaning and direction of the 1–5 values require confirmation before using them as a risk ranking.</li>
-  <li><b>Repeated identifiers:</b> There are 3,000 rows and 2,940 distinct Client IDs. Repeated IDs were not automatically removed.</li>
-  <li><b>Aggregate overlap:</b> The combined lending and deposit/account measures are sums of multiple fields. Potential overlap must be checked before treating them as unique portfolio totals.</li>
-  <li><b>Fee calculation:</b> The dashboard's displayed Total Fees figure could not be independently reproduced from a directly available monetary fee field in the organized dataset.</li>
-  <li><b>Income-band definitions:</b> Band thresholds and labels should be kept consistent between the notebook, organized data, and Power BI report.</li>
-  <li><b>Descriptive correlations:</b> Correlation values do not prove causal relationships or repayment outcomes.</li>
-  <li><b>Reproducibility:</b> Notebook source paths and date-parsing assumptions require verification before claiming that the notebook runs successfully from a fresh clone.</li>
+  <li><b>No validated default outcome:</b> The reviewed dataset does not establish a verified loan-default target for measuring default rates or validating a prediction model.</li>
+  <li><b>Risk Weighting:</b> The field contains values on a 1–5 scale, but its meaning and direction have not been independently confirmed. No high-risk or low-risk classification is asserted.</li>
+  <li><b>Repeated Client IDs:</b> The dataset has 3,000 rows and 2,940 distinct Client IDs. Repeated identifiers are not automatically treated as exact duplicate rows.</li>
+  <li><b>Potential aggregate overlap:</b> Combined lending and deposit/account measures are sums of multiple fields. Their definitions and possible overlap should be checked before treating them as unique portfolio totals.</li>
+  <li><b>Fee metric:</b> The dashboard's displayed Total Fees figure could not be independently reproduced from a directly validated monetary fee field in the reviewed organized dataset. It is not presented as verified fee revenue.</li>
+  <li><b>Segment percentages:</b> Percentages should be reported only when the denominator and calculation are clear and consistent.</li>
+  <li><b>Correlation interpretation:</b> Correlation does not establish causation, default probability, or repayment performance.</li>
 </ul>
 
 <hr>
@@ -420,11 +307,11 @@ Documentation that discusses default risk, repayment stability, or fee revenue s
 <h2>💡 Project Outcome</h2>
 
 <p>
-This project demonstrates a practical analytics workflow for examining a banking customer portfolio, validating financial aggregates, investigating relationships between numeric variables, and presenting selected indicators through Power BI.
+This project demonstrates a practical banking analytics workflow: examining customer financial information, validating selected figures, analyzing lending concentration, exploring relationships between deposits and account balances, and communicating findings through a Power BI dashboard.
 </p>
 
 <p>
-The key deliverable is a descriptive portfolio dashboard supported by data exploration. The project does not claim measured reductions in defaults, improved lending approvals, increased revenue, or other quantified business outcomes.
+The documented outcome is descriptive portfolio analysis and dashboard reporting. No quantified reduction in defaults, improvement in lending decisions, increase in revenue, or predictive credit-risk performance is claimed.
 </p>
 
 <hr>
@@ -433,8 +320,8 @@ The key deliverable is a descriptive portfolio dashboard supported by data explo
 
 <p>
   <b>Pranay Shrivastava</b><br>
-  B.Tech – Artificial Intelligence & Data Science<br>
-  <b>Specialization:</b> Data Analytics | Business Intelligence
+  B.Tech in Artificial Intelligence & Data Science, 2026<br>
+  <b>Focus:</b> Data Analytics | Business Intelligence | Financial Data Analysis
 </p>
 
 <p>
@@ -444,5 +331,6 @@ The key deliverable is a descriptive portfolio dashboard supported by data explo
 </p>
 
 <p align="center">
-  <i>Banking Analytics • Exploratory Data Analysis • Power BI • Financial Data Validation</i>
+  <i>Banking Analytics • Data Validation • Exploratory Analysis • Power BI</i>
 </p>
+```
